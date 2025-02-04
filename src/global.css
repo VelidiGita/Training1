@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.app{
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+
+}
+.nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(225, 69, 69);
+}
+.main{
+    height: 40%;
+    background-color: rgb(123, 90, 216);
+}
+.side1{
+    flex-basis: 40%;
+    background-color: rgb(223, 52, 166);
+
+}
+.side2{
+    flex-basis: 20%;
+    background-color: rgb(230, 124, 85);
+
+}

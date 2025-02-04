@@ -1,0 +1,2 @@
+component composition:-
+- component composition is used to combine multiple components into single application.
