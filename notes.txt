@@ -1,2 +1,9 @@
 component composition:-
 - component composition is used to combine multiple components into single application.
+
+Props:-
+- props is nothing but a properties similar to html attributes 
+- props is an object. 
+- props is an object used to exchange information or data from parent component to child compenent.
+
+
