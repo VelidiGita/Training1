@@ -7,3 +7,22 @@
     font-size: 100px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+.light {
+    color: white;
+    background-color: blue;
+}
+.dark {
+    color: black;
+    background-color: lightblue;
+}
+
+button {
+    font-size: large;
+    margin: 2%;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}

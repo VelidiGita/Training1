@@ -74,24 +74,41 @@
 
 // export default App
 
-import React from 'react'
+// import React from 'react'
 // import CBCStateEx from './stateexample/CBCStateEx'
 // import FBCStateEx from './stateexample/FBCStateEx'
-import FunctionalComponent from './components/FunctionalComponent'
+// import FunctionalComponent from './components/FunctionalComponent'
+// import CBCAssignment from './components/CBCAssignment'
+// import ClassComponent from './components/ClassComponent'
+// import MyForm from './components/MyForm'
 
+// const App = () => {
+//   return (
+//     <div>App
+//       {/* <CBCStateEx/> */}
+//       {/* <FBCStateEx/> */}
+//       {/* <FunctionalComponent clgName="MRU" city="hyd"/> */}
+//       {/* <h1>Hello, good afternoon</h1> */}
+//       {/* <CBCAssignment/> */}
+//       {/* <ClassComponent/> */}
+//       {/* <MyForm/> */}
+//     </div>
+//   )
+// }
+
+// export default App
+
+import React from 'react'
+import UseEffectEx from './hookexamples/UseEffectEx'
 const App = () => {
   return (
-    <div>App
-      {/* <CBCStateEx/> */}
-      {/* <FBCStateEx/> */}
-      <FunctionalComponent clgName="MRU" city="hyd"/>
-      <h1>Hello, good afternoon</h1>
+    <div>
+      <UseEffectEx/>
     </div>
   )
 }
 
+
 export default App
-
-
 
 

@@ -28,3 +28,22 @@
     background-color: rgb(230, 124, 85);
 
 }
+
+
+.light {
+    color: white;
+    background-color: blue;
+}
+.dark {
+    color: black;
+    background-color: lightblue;
+}
+
+button {
+    font-size: large;
+    margin: 2%;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
