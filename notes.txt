@@ -26,8 +26,8 @@ syntax:-constructor(){
 -to update the state object of a class component we have a method "this.setState({})"
 
 functional component:-
-- by default functional component stateless because there is no state object.
-- in react v16.8 , they introduce a concept calles as "hooks".
+- By default functional component stateless because there is no state object.
+- In react v16.8 , they introduce a concept calles as "hooks".
 syntax:- const[state , setState] = useState(initialValue);
                state - it will store initial value. 
                setState - it is used to update state. 
@@ -40,3 +40,33 @@ basic hooks are:-
 2.useEffect()
 3.useContext()
 
+//How to apply styling for your component:
+1.External StyleSheet
+2.Inline CSS
+3.Module CSS
+
+controlled components:
+- Form handling:
+
+2.useEffect():-
+- It allows developers to make necessary changes / side effects inside the component.
+syntax:- useEffect(callbackfn, dependency);
+
+
+list & keys:- every listed items from the array should have a unique key prop value so that it 
+              can track all the changes done in the lists.
+            
+
+React.fragment:-
+- this will act as a parent element for the jsx elements and we can give key prop for 
+- emptyfragment(<></>):- it will just act as parent but we cannot give key prop
+-  
+<React.Fragment></React.Fragment>:- it will act as a parent as well as
+
+3.useRef():-
+- ref is used to target native or real DOM elements.
+
+
+4.useContext():-
+- to avoid props drilling we use context api.
+- this hook is used to pass the data directly to th child component.
